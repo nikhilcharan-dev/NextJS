@@ -1,0 +1,21 @@
+Here in [NextJs],
+
+It is somewhat similar to React as it developed from react by Vercel
+It primarily works on File Based Routing System
+
+    - npx create-next-app@latest [project-name]
+
+We Code in src / app folder because, it is the entry point of the next web-app
+
+## Mainly
+Here, There are two types of Components
+
+1. Server Components
+2. React Components
+
+    # page.tsx [It is the only file where we write our components and using this only Next can detect component at a specific route]
+        - A page.tsx file inside [app/] corresponds to a specific route.
+
+    # layout.tsx [it is the file Which wraps pages to provide consistent structure]
+        - It allows you to maintain UI elements (like headers, footers, or sidebars) across multiple pages without reloading them.
+

@@ -1,0 +1,29 @@
+In Next,
+as Next has a file based routing system powered by Vercel
+we don't need to explicitly define our routes and are automatically created by the next
+
+there are two types of routes
+1. Static Routes
+2. Dynamic Routes
+
+NOTE: Both routes allow nesting
+
+1. Static Routes:
+    these are created typically
+    
+    EX :- 
+    RouteName (folder)
+        - page.tsx/js (file)
+
+    simple and direct
+
+2. Dynamic Routes
+    these routes are specifically created by enclosing the route name within closed braces [routename]
+    EX :-
+    [RouteName] (folder)
+        - page.tsx/js (file)
+    
+    efficient for handling more routes within a single folder
+
+
+NOTE: A Route becomes publicly accesible only when we add a page.tsx file

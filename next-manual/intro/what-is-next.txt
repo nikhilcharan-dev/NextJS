@@ -1,0 +1,18 @@
+NextJs: [ A Framework ]
+
+# It is a React framework for building web applications
+    Since, React app is not a fully-featured application for production
+        - React is a library for building user interfaces.
+        - Manually have to code features such as routing, data fetching and more.
+
+# It uses React for building user interfaces.
+    Provides additional features that enable us to build production ready applications
+
+# These additional features include,
+    - Routing 
+    - Data fetching
+    - Bundling, Compiling and more.
+
+# We need to install additional packages as NextJs provides everything we need.
+
+#
